@@ -10,8 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.11.0",
-    "react-native": "0.62.2",
+    "react": "^17",
+    "react-native": "^0.64",
     "react-native-context-menu-view": "link:../"
   },
   "devDependencies": {
