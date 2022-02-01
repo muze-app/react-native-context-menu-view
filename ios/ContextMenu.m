@@ -17,4 +17,7 @@ RCT_CUSTOM_VIEW_PROPERTY(previewBackgroundColor, UIColor, ContextMenuView) {
   view.previewBackgroundColor = json != nil ? [RCTConvert UIColor:json] : nil;
 }
 
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
+  return false;
+}
 @end
