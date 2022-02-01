@@ -19,6 +19,10 @@
   BOOL cancelled;
 }
 
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
+  return false;
+}
+
 - (void)insertReactSubview:(UIView *)subview atIndex:(NSInteger)atIndex
 {
   [super insertReactSubview:subview atIndex:atIndex];
